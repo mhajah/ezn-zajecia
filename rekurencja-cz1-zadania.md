@@ -26,7 +26,7 @@ Funkcja Ackermana jest rekurencyjną funkcją, która znana jest przede wszystki
 
 Napisz rekurencyjną funkcję Ackermanna w kodzie używając rekurencyjnej, matematycznej definicji:
 
-$A(m, n) = n + 1, gdy m = 0$<br>
-$A(m, n) = A(m-1, 1), gdy m > 0 i n = 0$<br>
-$A(m, n) = A(m-1, A(m, n-1)), gdy m > 0 i n > 0$<br>
+$A(m, n) = n + 1$, gdy $m = 0$<br>
+$A(m, n) = A(m-1, 1)$, gdy $m > 0$ i $n = 0$<br>
+$A(m, n) = A(m-1, A(m, n-1))$, gdy $m > 0$ i $n > 0$<br>
 **Uwaga!** Zadanie jest bardzo proste. Ma pokazać, że znając dowolną matematyczną definicję funkcji rekurencyjnej, możemy ją bez wysiłku przelać na kod.
