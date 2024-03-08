@@ -1,20 +1,20 @@
 
-### Wyszukiwanie binarne - zadania
+## Wyszukiwanie binarne - zadania
 
-#### Zadanie 1
+### Zadanie 1
 Napisz rekurencyjną funkcję $binsearch(array,x,left,right)$, która stosując algorytm wyszukiwania binarnego zwróci $true$ jeśli element $x$ znajduję się w tablicy. W przeciwnym wypadku niech zwróci $false$.
 
-#### Zadanie 2
+### Zadanie 2
 Powtórz zadanie 1, tylko tym razem napisz funkcję iteracyjnie. **Sygnatura funkcji** będzie wyglądała teraz tak: $binsearch(array,x)$.
 
-#### Zadanie 3
+### Zadanie 3
 Pobierz plik tekstowy z listą wszystkich polskich, męskich nazwisk (są posortowane alfabetycznie):
 [Google Drive](https://drive.google.com/file/d/1JPz7FOZIYUQA9XiWltObaOlumT76Kzaw/view?usp=sharing)
 
 Następnie zmodyfikuj jedną z funkcji z poprzednich zadań tak, aby wyszukiwała czy podane nazwisko $x$ znajduje się w pliku. Znajdź swoje nazwisko. <br> Możesz też napisać proste wyszukiwanie liniowe, w którym za pomocą pętli przejdziesz po wszystkich nazwiskach z listy szukając wybranego. Zwróć uwagę, o ile szybsze jest podejście z wykorzystaniem wyszukiwania binarnego (oczywiście, jeśli szukane nazwisko nie będzie akurat jednym z pierwszych na liście :-))
 
 
-#### Zadanie 4
+### Zadanie 4
 Na pewne targowisko przyjeżdżają handlarze, którzy nie za bardzo za sobą przepadają. Administracja targowiska postanowiła, że będzie starała się zmaksymalizować odległość między poszczególnymi handlarzami. Pomóż im znaleźć maksymalną odległość między dwoma najbliższymi stanowiskami. <br>W pliku numbers.txt znajdują się odległości między stanowiskami. Poniżej znajduje się funkcja, która zwraca $true$ jeśli możemy umieścić dwa najbliżej położone stanowiska w odległości $x$.
 
 [numbers.txt](https://drive.google.com/file/d/1TRy9rHmv0P_rRwh28AU5iPoNJgX9Pet6/view?usp=sharing)
