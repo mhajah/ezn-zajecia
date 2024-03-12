@@ -3,9 +3,9 @@ Kolejne liczby ciągu Lucasa oblicza się w następujący sposób: dwie początk
 
 Uzupełnij rekurencyjną definicję funkcji $Lucas(int$ $n)$, która obliczy $n$-ty wyraz ciągu Lucasa.
 
-$Lucas(int$ $n)$ ${$<br>
+Lucas(int n) {<br>
     ...<br>
-$}$
+}
 
 ### Zadanie 2
 Narysuj rekurencyjne drzewko wywołań funkcji $Lucas$ z poprzedniego zadania.
