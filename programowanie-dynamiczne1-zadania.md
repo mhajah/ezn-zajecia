@@ -19,6 +19,6 @@ Napisz tę funkcję jeszcze raz, tylko tym razem z sygnaturą $int \ zaby2(int \
 ### Zadanie 4
 
 Napisz funkcję $zaby3(int[] \ n)$, która rozwiązuje poniższy problem:<br>
-Jako argument otrzymujemy listę wysokości kamieni, które ma pokonać żaba (tak jak w 1 problemie, żaba może skoczyć o 1 lub 2). Skaczać z kamienia $i$ na kamień $j$ musi pokonać $| \ h_i \ - h_j \ |$ metrów (są to wysokości tych kamieni). Znajdź koszt najkrótszej ścieżki dla żaby.
+Jako argument otrzymujemy listę wysokości kamieni, które ma pokonać żaba (tak jak w 1 problemie, żaba może skoczyć o 1 lub 2). Skaczać z kamienia $i$ na kamień $i+1$ lub $i+2$ żaba musi pokonać $| \ h_i \ - h_j \ |$ metrów (są to wysokości tych kamieni, $j$ to $i+1$ lub $i+2$). Znajdź koszt najkrótszej ścieżki dla żaby.
 
 **Uwaga!** Musisz użyć funkcji znajdującej minimum (np. $Math.Min()$ w C#). Pamiętaj też, że inicjalizując tablicę jest ona wypełniona zerami (jest to raczej niepożądane przy znajdowaniu minimum).
