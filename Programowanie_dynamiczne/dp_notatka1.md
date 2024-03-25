@@ -12,7 +12,7 @@ int fibo(int n) {
 ```
 
 Wiemy też, że taka implemetancja ma ogromną wadę - **wykładniczą** złożoność obliczeniową $O(2^n)$, która wynika z tego, że liczymy kilkukrotnie te same wyrazy. \
-Więc jeśli już raz policzyliśmy jakiś wyraz (np. $`fibo(3)$`), to chcielibyśmy w pamięci przechowywać jego wynik, aby nie musieć tego robić drugi raz.
+Więc jeśli już raz policzyliśmy jakiś wyraz (np. $`fibo(3)`$), to chcielibyśmy w pamięci przechowywać jego wynik, aby nie musieć tego robić drugi raz.
 
 #### Idea programowania dynamicznego
 
