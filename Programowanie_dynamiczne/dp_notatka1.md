@@ -50,7 +50,7 @@ Jak widać, pomysł jest bardzo prosty - jedyny problem pojawia się przy naszej
 #### Słownik
 
 Struktur, które można użyć jest wiele (dwuwymiarowa tablica, słownik, obiekt, hashMapa...), my użyjemy słownika (_ang. dictionary_). \
-Słownik to prosta struktura, dostępna w wielu językach programowania. Składa się z par $<Klucz, Wartość>$:
+Słownik to prosta struktura, dostępna w wielu językach programowania. Składa się z par $ \<Klucz, Wartość\> $:
 
 ```text
 Klucz   Wartość
@@ -73,7 +73,7 @@ W C# słownik deklarujemy w ten sposób:
 Dictionary<int, int> NAZWA = new Dictionary<int, int>();
 ```
 
-Gdzie $<int, int>$, to typy danych odpowiednio naszych kluczy i wartości, a `NAZWA`, to oczywiście nazwa naszej zmiennej. \
+Gdzie $ \<int, int\> $, to typy danych odpowiednio naszych kluczy i wartości, a `NAZWA`, to oczywiście nazwa naszej zmiennej. \
 Natomiast zapisywanie/odczytanie ze słownika przypomina korzystanie z tablicy:
 
 ```c
