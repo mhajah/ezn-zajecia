@@ -18,13 +18,9 @@ Więc jeśli już raz policzyliśmy jakiś wyraz (np. $`fibo(3)$`), to chcieliby
 
 W ten sposób dochodzimy do głównej idei programowania dynamicznego: **nie chcemy obliczać wartości, którą już kiedyś policzyliśmy**. \
 Idea powinna być dla nas intuicyjna, bo w końcu wykonując proste obliczenia arytmetyczne "w głowie" korzystamy z poprzednio wyliczonych wartości. Kiedy ktoś nam każe policzyć taką sumę:
-$$
-1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36 
-$$
+$$1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36$$
 To kiedy za minutę zostaniemy poproszeni o bardzo podobną sumę, tylko powiększoną o 9, to nie będziemy ponownie liczyć $1+2+...+8+9$, ale zrobimy to sprytniej (pamiętając wynik poprzedniego dodawania):
-$$
-36 + 9 = 45
-$$
+$$36 + 9 = 45$$
 
 
 #### Wracając do naszego ciągu Fibonacciego
