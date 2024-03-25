@@ -98,4 +98,4 @@ int fibo(int n, Dictionary<int, int> cache) {
 ```
 
 `cache.ContainsKey(n)` zwraca true/false w zależności od tego, czy para o podanym kluczu istnieje w słowniku `cache`.\
-Funkcja napisana w ten sposób ma liniową złożoność rekurencyjną $`O(n)`$, a tak naprawdę $`O(n*log(n))`$, ponieważ funkcja `ConstainsKey` sprawdza słownik w czasie logarytmicznym.
+Funkcja napisana w ten sposób ma liniową złożoność liniową $`O(n)`$, a tak naprawdę $`O(n*log(n))`$, ponieważ funkcja `ConstainsKey` sprawdza słownik w czasie logarytmicznym.
