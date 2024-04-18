@@ -38,6 +38,7 @@ Lista wysokości: [1, 4, 5, 6, 7, 8]
 1. Zawodnik zaczyna na kamieniu o wysokości 1.
 2. Może skoczyć na kamień o wysokości 4 (zmęczenie = 3) lub na kamień o wysokości 5 (zmęczenie = 4).
 3. Następnie może kontynuować z minimalnym zmęczeniem, wybierając odpowiednie skoki.
+---
 
 # Turniej Przygotowań Wysokościowych
 
