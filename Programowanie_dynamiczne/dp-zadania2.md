@@ -52,9 +52,9 @@ W krainie przygód odbywa się turniej, w którym uczestnicy rywalizują, aby ja
 ### Dane
 Uczestnicy otrzymują:
 - `N`: Liczba dostępnych przedmiotów.
-- `W`: Pojemność plecaka.
-- `wart[]`: Tablica wartości przedmiotów.
-- `waga[]`: Tablica wag przedmiotów.
+- `P`: Pojemność plecaka.
+- `v[]`: Tablica wartości przedmiotów.
+- `w[]`: Tablica wag przedmiotów.
 
 ### Przykład
 Dane:
