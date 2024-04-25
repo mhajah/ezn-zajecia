@@ -1,7 +1,7 @@
 # Zadanie 1
 
 ### Opis:
-Rozrysuj sobie (na kartce lub w Paintcie) tabelkę, która będzie reprezentować wszystkie wartości dla Problemu Plecakowego (0-1), dla poniższych danych:
+Rozrysuj sobie (na kartce lub w Paintcie) tabelkę, która będzie zawierać wszystkie wartości dla Problemu Plecakowego (0-1), dla poniższych danych:
 
 Dostępna waga plecaka $W = 8$
 Ilość przedmiotów $N = 3$
@@ -81,3 +81,27 @@ Dane:
 - Wagi przedmiotów: [1, 3, 4, 5, 2]
 
 Uczestnicy muszą wybrać najlepszą kombinację przedmiotów, aby maksymalizować wartość ich ładunku, nie przekraczając pojemności plecaka. Na przykład, dobierając przedmioty o wadze 3, 4 i 2 kg, uzyskają maksymalną wartość 105, co jest optymalnym rozwiązaniem.
+
+
+# Zadanie 5: Spadek
+
+### Opis:
+Stary Jan ma dwóch synów. Ponieważ chłopcy często się kłócą, postanowił zapobiec następnym niesnaskom i sam podzieli majątek między nich. Jan chce rozdzielić majątek na dwie części tak, aby różnica wartości pomiędzy nimi była jak najmniejsza. Jeśli nie da się podzielić po równo, starszy syn otrzyma więcej.
+
+### Dane:
+- Lista wartości przedmiotów, np: `[2, 2, 2, 5]`. Oznacza, że Jan w swoim majątku ma do rozdania 4 przedmiotu o wartościach 2, 2, 2 i 5.
+
+### Wyjście:
+- kwoty wartości części majątku dla starszego i młodszego syna
+
+### Przykłady:
+##### przykład1
+- Wejście: `[2, 2, 2, 5]`
+- Wyjście: `6 5` (starszy syn dostał 6, młodszy 5)
+
+##### przykład2
+- Wejście: `[10, 5, 10, 5, 5]`
+- Wyjście: `20 15`
+
+### Wskazówka
+Spróbuj wyznaczyć wszystkie sumy możliwe do uzyskania (zacznij od tego, że zawsze można uzyskać sumę 0).
