@@ -105,3 +105,5 @@ Stary Jan ma dwóch synów. Ponieważ chłopcy często się kłócą, postanowi�
 
 ### Wskazówka
 Spróbuj wyznaczyć wszystkie sumy możliwe do uzyskania (zacznij od tego, że zawsze można uzyskać sumę 0).
+
+Możesz użyć funkcji `void` i wypisać dane za pomocą, np. `Console.WriteLine()`.
