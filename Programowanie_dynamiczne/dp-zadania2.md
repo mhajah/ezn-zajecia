@@ -1,4 +1,20 @@
-# Zadanie: Festiwal Latarni
+# Zadanie 1
+
+### Opis:
+Rozrysuj sobie (na kartce lub w Paintcie) tabelkę, która będzie reprezentować wszystkie wartości dla Problemu Plecakowego (0-1), dla poniższych danych:
+
+Dostępna waga plecaka $W = 8$
+Ilość przedmiotów $N = 3$
+
+| Waga przedmiotu | Wartość przedmiotu |
+|-----------------|--------------------|
+| 3               | 30                 |
+| 4               | 50                 |
+| 5               | 60                 |
+
+Staraj się wykonywać kroki tak, jak robi to algorytm, a nie samemu zgadywać wartości.
+
+# Zadanie 2: Festiwal Latarni
 
 ### Opis:
 W krainie Kafelkowo, znanej z mistrzostw w układaniu kafelków, odbywa się coroczny konkurs dla kafelkarzy. Zadaniem uczestników jest ułożenie podłogi o dokładnie określonej długości w jak najszybszym czasie, używając jak najmniejszej liczby kafelków. Każdy kafelek ma określoną długość, a uczestnicy mogą wykorzystać każdy typ kafelka dowolnie wiele razy.
@@ -20,7 +36,7 @@ Kafelkarze muszą ułożyć podłogę o długości 60 jednostek:
 - Najlepsze rozwiązanie to użycie dwóch kafelków o długości 30.
 ---
 
-# Zadanie: Mistrzostwa skoczni w Średniowieczu
+# Zadanie 3: Mistrzostwa skoczni w Średniowieczu
 
 ### Opis:
 W dalekiej krainie odbywają się coroczne zawody skoczni w ramach średniowiecznego festiwalu. Skoczkowie muszą przejść przez serię kamieni rozstawionych wzdłuż rzeki, aby dotrzeć do mety. Każdy kamień ma swój unikalny numer, który reprezentuje jego wysokość. Skoczkowie mogą przeskoczyć z jednego kamienia na kolejny lub pominąć jeden kamień, skacząc dwa naraz. Wysokości kamieni są różne, a różnica wysokości między dwoma kamieniami, na które skacze zawodnik, generuje zmęczenie. Zmęczenie jest równe wartości bezwzględnej różnicy wysokości między kamieniami. Zadaniem uczestnika jest zakończenie trasy z jak najmniejszym całkowitym zmęczeniem.
@@ -40,7 +56,7 @@ Lista wysokości: [1, 4, 5, 6, 7, 8]
 3. Następnie może kontynuować z minimalnym zmęczeniem, wybierając odpowiednie skoki.
 ---
 
-# Turniej Przygotowań Wysokościowych
+# Zadanie 4: Turniej Przygotowań Wysokościowych
 
 ### Opis
 W krainie przygód odbywa się turniej, w którym uczestnicy rywalizują, aby jak najlepiej przygotować się na wyprawę na legendarny szczyt górski. Każdy uczestnik ma do dyspozycji plecak o ograniczonej pojemności, w który musi zmieścić najbardziej wartościowe przedmioty, które zapewnią mu przetrwanie i sukces podczas wspinaczki. Przedmioty różnią się wagą i wartością, a celem każdego uczestnika jest maksymalizacja sumarycznej wartości załadowanych przedmiotów, nie przekraczając przy tym maksymalnej dopuszczalnej wagi plecaka.

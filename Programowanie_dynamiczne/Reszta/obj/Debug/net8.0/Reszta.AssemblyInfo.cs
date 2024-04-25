@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reszta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4c50c0dd71bd457747c0dc80cf56a6337208a68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e1204a763bad2417ec6842c828c2618c799ea1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reszta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reszta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
