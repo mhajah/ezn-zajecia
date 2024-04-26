@@ -1,0 +1,14 @@
+/home/michal/EZN-moje/plecak/bin/Debug/net8.0/plecak
+/home/michal/EZN-moje/plecak/bin/Debug/net8.0/plecak.deps.json
+/home/michal/EZN-moje/plecak/bin/Debug/net8.0/plecak.runtimeconfig.json
+/home/michal/EZN-moje/plecak/bin/Debug/net8.0/plecak.dll
+/home/michal/EZN-moje/plecak/bin/Debug/net8.0/plecak.pdb
+/home/michal/EZN-moje/plecak/obj/Debug/net8.0/plecak.GeneratedMSBuildEditorConfig.editorconfig
+/home/michal/EZN-moje/plecak/obj/Debug/net8.0/plecak.AssemblyInfoInputs.cache
+/home/michal/EZN-moje/plecak/obj/Debug/net8.0/plecak.AssemblyInfo.cs
+/home/michal/EZN-moje/plecak/obj/Debug/net8.0/plecak.csproj.CoreCompileInputs.cache
+/home/michal/EZN-moje/plecak/obj/Debug/net8.0/plecak.dll
+/home/michal/EZN-moje/plecak/obj/Debug/net8.0/refint/plecak.dll
+/home/michal/EZN-moje/plecak/obj/Debug/net8.0/plecak.pdb
+/home/michal/EZN-moje/plecak/obj/Debug/net8.0/plecak.genruntimeconfig.cache
+/home/michal/EZN-moje/plecak/obj/Debug/net8.0/ref/plecak.dll
