@@ -14,7 +14,7 @@ Ilość przedmiotów $N = 3$
 
 Staraj się wykonywać kroki tak, jak robi to algorytm, a nie samemu zgadywać wartości.
 
-# Zadanie 2: Festiwal Latarni
+# Zadanie 2: Kafelkowo
 
 ### Opis:
 W krainie Kafelkowo, znanej z mistrzostw w układaniu kafelków, odbywa się coroczny konkurs dla kafelkarzy. Zadaniem uczestników jest ułożenie podłogi o dokładnie określonej długości w jak najszybszym czasie, używając jak najmniejszej liczby kafelków. Każdy kafelek ma określoną długość, a uczestnicy mogą wykorzystać każdy typ kafelka dowolnie wiele razy.
