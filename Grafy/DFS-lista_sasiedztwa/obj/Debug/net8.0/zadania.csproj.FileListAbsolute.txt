@@ -1,0 +1,14 @@
+/home/michal/EZN-moje/zadania/bin/Debug/net8.0/zadania
+/home/michal/EZN-moje/zadania/bin/Debug/net8.0/zadania.deps.json
+/home/michal/EZN-moje/zadania/bin/Debug/net8.0/zadania.runtimeconfig.json
+/home/michal/EZN-moje/zadania/bin/Debug/net8.0/zadania.dll
+/home/michal/EZN-moje/zadania/bin/Debug/net8.0/zadania.pdb
+/home/michal/EZN-moje/zadania/obj/Debug/net8.0/zadania.GeneratedMSBuildEditorConfig.editorconfig
+/home/michal/EZN-moje/zadania/obj/Debug/net8.0/zadania.AssemblyInfoInputs.cache
+/home/michal/EZN-moje/zadania/obj/Debug/net8.0/zadania.AssemblyInfo.cs
+/home/michal/EZN-moje/zadania/obj/Debug/net8.0/zadania.csproj.CoreCompileInputs.cache
+/home/michal/EZN-moje/zadania/obj/Debug/net8.0/zadania.dll
+/home/michal/EZN-moje/zadania/obj/Debug/net8.0/refint/zadania.dll
+/home/michal/EZN-moje/zadania/obj/Debug/net8.0/zadania.pdb
+/home/michal/EZN-moje/zadania/obj/Debug/net8.0/zadania.genruntimeconfig.cache
+/home/michal/EZN-moje/zadania/obj/Debug/net8.0/ref/zadania.dll
