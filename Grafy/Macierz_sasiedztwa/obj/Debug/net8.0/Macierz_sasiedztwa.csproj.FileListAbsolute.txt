@@ -1,0 +1,15 @@
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/bin/Debug/net8.0/Macierz_sasiedztwa
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/bin/Debug/net8.0/Macierz_sasiedztwa.deps.json
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/bin/Debug/net8.0/Macierz_sasiedztwa.runtimeconfig.json
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/bin/Debug/net8.0/Macierz_sasiedztwa.dll
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/bin/Debug/net8.0/Macierz_sasiedztwa.pdb
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/Macierz_sasiedztwa.GeneratedMSBuildEditorConfig.editorconfig
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/Macierz_sasiedztwa.AssemblyInfoInputs.cache
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/Macierz_sasiedztwa.AssemblyInfo.cs
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/Macierz_sasiedztwa.csproj.CoreCompileInputs.cache
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/Macierz_sasiedztwa.sourcelink.json
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/Macierz_sasiedztwa.dll
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/refint/Macierz_sasiedztwa.dll
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/Macierz_sasiedztwa.pdb
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/Macierz_sasiedztwa.genruntimeconfig.cache
+/home/michal/EZN/Grafy/Macierz_sasiedztwa/obj/Debug/net8.0/ref/Macierz_sasiedztwa.dll
