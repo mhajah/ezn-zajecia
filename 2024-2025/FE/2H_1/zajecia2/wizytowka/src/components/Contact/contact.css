@@ -1,0 +1,8 @@
+.contactIcons {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactIcons > p {
+  margin: 2px 0;
+}
