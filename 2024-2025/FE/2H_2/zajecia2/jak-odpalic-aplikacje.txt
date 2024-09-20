@@ -1,0 +1,6 @@
+
+
+1. wchodzimy do folderu, w którym chcemy mieć projekt
+2. wpisujemy "npx create-react-app <nazwa_aplikacji>"
+3. cd <nazwa_aplikacji>
+4. npm start

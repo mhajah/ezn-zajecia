@@ -1,0 +1,18 @@
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+}
+
+.abc {
+  color: red;
+}
+
+p {
+  padding: 10px;
+  background-color: red;
+  margin: 20px;
+  border-radius: 25%;
+  width: 30px;
+}
