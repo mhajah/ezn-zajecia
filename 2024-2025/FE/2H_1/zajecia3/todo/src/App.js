@@ -27,8 +27,8 @@ function App() {
       <ul>
       { todo
       .filter((element) => element.toLowerCase().includes(search.toLowerCase()))
-      .map((element) => (
-        <li>{element}</li>
+      .map((element, index) => (
+        <li key={new Date()}>{element} ({index})</li>
       ))
       }
       </ul>
