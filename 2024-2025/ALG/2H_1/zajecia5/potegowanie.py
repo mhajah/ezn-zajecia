@@ -24,3 +24,4 @@ def szybkiePotegowanie(a, b):
 # print(1.52 ** 0.5)
 # print(potegowanie(2, 512312300))
 print(szybkiePotegowanie(2, 512312300))
+
