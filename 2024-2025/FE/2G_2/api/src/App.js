@@ -6,8 +6,15 @@ function App() {
   const [pokemonData, setPokemonData] = useState(null);
 
   useEffect(() => {
-    if (!pokemon) return;
-    fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
+    if (!pokemon) {
+      return;
+    }
+    let result = pokemon;
+    if (pokemon === 'kamil') {
+      result = 'snorlax';
+    }
+
+    fetch(`https://pokeapi.co/api/v2/pokemon/${result}`)
       .then(res => res.json())
         .then(data => setPokemonData(data))
   }, [pokemon]);
@@ -29,8 +36,14 @@ function App() {
             {pokemonData.abilities.map(items => (
               <li key={items.ability.name}>{items.ability.name}</li>
             ))}
+            {/* CRIES */}
+            <audio controls autoPlay src={pokemonData?.cries.latest}>
+              <source src={pokemonData?.cries.latest} type="audio/mpeg" />
+            </audio>
           </>
       }
+      {/* JSON prietty display */}
+      {/* {pokemonData && JSON.stringify(pokemonData, null, 2)} */}
     
     </>
   );
