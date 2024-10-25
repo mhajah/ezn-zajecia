@@ -1,3 +1,4 @@
+
 export default function myReducer(state, action) {
   switch (action.type) {
     case 'ADD_TODO':
@@ -13,13 +14,4 @@ export default function myReducer(state, action) {
     default: 
       return state;
   }
-
-
-  // if (action.type === 'ADD_TODO') {
-  //   return { todos: [...state.todos, action.text] };
-  // }
-  // if (action.type === 'DELETE_TODO') {
-  //   const newTodos = state.todos.filter((todo, index) => index !== action.index);
-  //   return { todos: newTodos };
-  // }
 }

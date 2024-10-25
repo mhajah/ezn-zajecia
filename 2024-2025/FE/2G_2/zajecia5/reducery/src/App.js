@@ -6,12 +6,12 @@ import myReducer from './reducers/todoReducer'
 
 function App() {
   const initialList = [
-    { text: 'Zrobić zakupy', isFavourite: false },
+    { text: 'Zrobić zakupy', isFavourite: false, title: 'text' },
     { text: 'Zrobić pranie', isFavourite: true },
     { text: 'Zrobić obiad', isFavourite: false }
   ];
   // const [todos, setTodos] = useState(initialList);
-  const [state, dispatch] = useReducer(myReducer, { todos: initialList, licznik: 0 });
+  const [state, dispatch] = useReducer(myReducer, { todos: initialList, licznik: 0, x: 1, y: 2 });
   function handleAddTodo (text) {
     //  TO JEST AKCJA
     //        |
@@ -23,12 +23,20 @@ function App() {
     dispatch({ type: 'DELETE_TODO', index });
   }
 
+  // function handleDeleteTodo (index) {
+  //   dispatch({ type: 'DELETE_TODO', index });
+  // }
+
   function incrementCounter () {
     dispatch({ type: 'INCREMENT' });
   }
 
   function decrementCounter () { 
     dispatch({ type: 'DECREMENT' });
+  }
+
+  function handleFavourite (index) {
+    dispatch({ type: 'FAVOURITE_TODO', index });
   }
 
   // const addTodo = (text) => {
