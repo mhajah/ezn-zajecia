@@ -14,7 +14,8 @@ function App() {
 
   return (
     <>
-      <h1>Pokemon</h1>
+    <main>
+      <h1>Pokemons</h1>
       <input id="pokemon" type="text" />
       <button onClick={ () => setPokemon(document.getElementById('pokemon').value) }>
         Znajdz pokemona
@@ -22,20 +23,16 @@ function App() {
       { pokemonData && (
           <>
             <img src={pokemonData.sprites.front_default} alt="pokemon" /> <br/>
-            Waga: {pokemonData.weight} <br/>
-            Wzrost: {pokemonData.height} <br/>
-            Abilities: <br/>
-            {pokemonData.abilities.map(item => (
-              <li key={item.ability.name}>{item.ability.name}</li>
+            <h3>Umiejetnosci:</h3>
+            {pokemonData.abilities.map(ability => (
+              <li>{ability.ability.name}</li>
             ))}
-            <audio controls src={pokemonData.cries.latest}>
-              <source src={pokemonData.cries.latest} type="audio/mpeg" />
-            </audio>
-          </>
+         </>
         )
+
         
       }
-    
+    </main>
     </>
   );
 }
