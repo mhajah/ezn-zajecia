@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Domain Object Model - DOM -->
+  <div id="naglowek" class="naglowek2">
+    Kosmiczne przygody
+  </div>
+
+</body>
+<script>
+  // manipulowanie DOMem i Eventy
+  const newDiv = document.createElement('div');
+  console.log(newDiv);
+  newDiv.innerHTML = 'Nowy element';
+  document.body.appendChild(newDiv);  
+  newDiv.style.color = 'red';
+  newDiv.style.fontSize = '30px';
+
+  // getElementById
+  const naglowek = document.getElementById('naglowek');
+  naglowek.style.color = 'blue';
+  naglowek.style.fontSize = '16px';
+
+  // querySelector
+  const naglowek2 = document.querySelector('.naglowek2');
+  naglowek2.style.color = 'green';
+  
+  const przepisy = ['przepis1', 'przepis2', 'przepis3'];
+  naglowek.addEventListener("mouseover", (event) => {
+    przepisy.push(event.target.innerHTML);
+    console.log(przepisy);
+  });
+  naglowek.addEventListener("mouseout", () => {
+    naglowek.style.color = 'blue';
+  });
+
+  // Wypisanie wszystkich przepisow w HTMLU
+  const container = document.createElement('div');
+  document.body.appendChild(container);
+  przepisy.forEach((przepis) => {
+    const przepisDiv = document.createElement('div');
+    przepisDiv.innerHTML = przepis;
+    container.appendChild(przepisDiv);
+  });
+</script>
+</html>
