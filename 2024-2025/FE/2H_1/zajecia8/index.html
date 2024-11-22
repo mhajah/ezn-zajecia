@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+  </div>
+</body>
+<script>
+  // getElementById chwyta element z drzewka DOM po ID
+  // const container = document.getElementById('container');
+  // alternatywnie, zwykle używa się querySelector
+  const container = document.querySelector('#container');
+  // const allContainers = document.querySelectorAll('div');
+  container.innerHTML = '<h1>Witaj świecie</h1>';
+  container.appendChild(document.createElement('input'));
+  container.style = 'display: flex; align-items: center; flex-direction: column;';
+  container.style.color = 'blue';
+  container.appendChild(document.createElement('p'));
+
+  const paragraf = document.querySelector('p');
+  paragraf.id = 'paragraf';
+  paragraf.innerHTML = 'To jest paragraf';
+  paragraf.style.color = 'red';
+  console.log('container', container);
+
+  paragraf.addEventListener('mouseover', (event) => {
+    console.log('event', event);
+    paragraf.style.color = 'green';
+    paragraf.innerHTML = 'Najechałeś mnie';
+  });
+
+  paragraf.addEventListener('mouseout', () => {
+    paragraf.style.color = 'red';
+    paragraf.innerHTML = 'To jest paragraf';
+  });
+
+  document.body.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      paragraf.style.color = 'blue';
+      const input = document.querySelector('input');
+      const inputValue = input.value;
+      paragraf.innerHTML = `${inputValue}`;
+      input.value = '';
+    }
+  });
+
+
+</script>
+</html>
