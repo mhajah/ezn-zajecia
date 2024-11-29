@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container" class="containerClass">
+
+  </div>
+  <div class="containerClass">
+
+  </div>
+
+  <div>
+
+  </div>
+  
+</body>
+<script>
+  // Domain Object Model
+  // querySelector, querySelectorAll
+
+  // const container = document.getElementById('container');
+  // const container = document.getElementsByClassName('containerClass')[0];
+  // const container = document.querySelector('div');
+  const container = document.querySelectorAll('div')[0];
+  container.style.backgroundColor = 'red';
+  container.innerHTML = 'Hello World';
+  container.style.width = '100px';
+  container.style.height = '100px';
+  container.style.display = 'flex';
+  container.style.justifyContent = 'center';
+  container.style.alignItems = 'center';
+  container.className = 'nowaKlasa';
+  container.id = 'noweId';
+  console.log(container.style);
+
+  const Card = document.createElement('div');
+  Card.style.width = '100px';
+  Card.style.height = '100px';
+  Card.style.backgroundColor = 'green';
+  Card.style.color = 'white';
+  Card.innerHTML = 'Card';
+  console.log(Card);
+  document.body.innerHTML = '';
+  document.body.appendChild(Card);
+
+  // Event Listeners
+  Card.addEventListener("click", () => {
+    console.log('Card clicked');
+  });
+</script>
+</html>
