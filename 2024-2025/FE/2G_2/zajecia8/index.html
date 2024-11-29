@@ -16,6 +16,13 @@
   <div>
 
   </div>
+  <form>
+    <input type="text" name="name" id="name" value="123" />
+
+    <button>
+      Click me
+    </button>
+  </form>
   
 </body>
 <script>
@@ -44,12 +51,41 @@
   Card.style.color = 'white';
   Card.innerHTML = 'Card';
   console.log(Card);
-  document.body.innerHTML = '';
   document.body.appendChild(Card);
 
   // Event Listeners
-  Card.addEventListener("click", () => {
-    console.log('Card clicked');
+  Card.addEventListener("mousemove", () => {
+    Card.style.backgroundColor = 'blue';
   });
+  Card.addEventListener("mouseleave", () => {
+    Card.style.backgroundColor = 'green';
+  });
+  document.body.addEventListener("keydown", (e) => {
+    if (e.key === 'Enter') {
+      document.body.innerHTML = '';
+      document.body.innerHTML = 'PRZESLANO FORMULARZ';
+    }
+  });
+
+  
+  const input = document.querySelector('input');
+  let x = input.value;
+  
+  function inputValue() {
+    console.log(x);
+  }
+  
+  const button = document.querySelector('button');
+  button.addEventListener('click', (e) => {
+    e.preventDefault();
+    inputValue();
+  });
+  // możliwe, że tak się nie robi
+  // function mojaFunkcja(e) {
+  //   console.log(e);
+  //   event.preventDefault();
+  //   console.log('Kliknieto mnie');
+  //   while (true);
+  // }
 </script>
 </html>
