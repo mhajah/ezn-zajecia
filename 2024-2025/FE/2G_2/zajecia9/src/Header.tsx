@@ -1,15 +1,7 @@
 import React, { useMemo } from "react";
 
-function slowFunction() {
-  for (let i = 0; i < 1000000000; i++) {
-    // do nothing
-  }
+function Header({ setState }: { setState: (value: number) => void }) {
+  return <button onClick={() => setState(5)}>+1</button>;
 }
 
-function Header({ count }: { count: number }) {
-  useMemo(() => slowFunction(), []);
-
-  return <h1>Header... {count}</h1>;
-}
-
-export default React.memo(Header);
+export default Header;

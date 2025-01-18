@@ -1,20 +1,20 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import Header from "./Header";
+import Home from "./Home";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [secondCounter, setSecondCounter] = useState(0);
+  const [activeTab, setActiveTab] = useState(0);
+  const tabs = [
+    { id: 0, name: "home", content: <Home /> },
+    { id: 1, name: "about", content: "About page" },
+    { id: 2, name: "contact", content: "Contact page" },
+  ];
 
   return (
     <>
-      <Header count={secondCounter} />
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </button>
-      <button onClick={() => setSecondCounter((count) => count + 1)}>
-        count is {secondCounter}
-      </button>
+      <Header setState={setActiveTab} />
+      <div>{activeTab}</div>
     </>
   );
 }
