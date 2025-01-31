@@ -1,4 +1,6 @@
 node_modules
+node_modules/*
+../node_modules
 my_notes.md
 .DS_Store
 my_apps
