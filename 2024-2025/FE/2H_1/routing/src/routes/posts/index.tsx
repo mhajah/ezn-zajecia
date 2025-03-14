@@ -21,7 +21,8 @@ function RouteComponent() {
         >
           <h2>{post.title}</h2>
           <Link
-            to={`/posts/${post._id}`}
+            to="/posts/$id"
+            params={{ id: post._id }}
             className="text-blue-500"
           >
             Przejdź do artykułu
